@@ -9,13 +9,13 @@
 
 $name = $_POST['name'];
 
-$english = $_POST['english'];
+$DELD = $_POST['DELD'];
 $maths = $_POST['maths'];
-$science = $_POST['science'];
-$computer = $_POST['computer'];
-$hindi = $_POST['hindi'];
+$OOPS = $_POST['OOPS'];
+$WT = $_POST['WT'];
+$OS = $_POST['OS'];
 
-$total = $english + $maths + $science + $computer + $hindi;
+$total = $DELD + $maths + $OOPS + $WT + $OS;
 
 $percentage = $total / 5;
 
@@ -43,8 +43,8 @@ else
     </tr>
 
     <tr>
-        <td>English</td>
-        <td><?php echo $english; ?></td>
+        <td>DELD</td>
+        <td><?php echo $DELD; ?></td>
     </tr>
 
     <tr>
@@ -53,18 +53,18 @@ else
     </tr>
 
     <tr>
-        <td>Science</td>
-        <td><?php echo $science; ?></td>
+        <td>OOPS</td>
+        <td><?php echo $OOPS; ?></td>
     </tr>
 
     <tr>
-        <td>Computer</td>
-        <td><?php echo $computer; ?></td>
+        <td>WT</td>
+        <td><?php echo $WT; ?></td>
     </tr>
 
     <tr>
-        <td>Hindi</td>
-        <td><?php echo $hindi; ?></td>
+        <td>OS</td>
+        <td><?php echo $OS; ?></td>
     </tr>
 </table>
 

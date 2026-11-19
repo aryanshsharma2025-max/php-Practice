@@ -12,20 +12,20 @@
         Name:
         <input type="text" name="name" required><br><br>
 
-        English:
-        <input type="number" name="english" required><br><br>
+        OS:
+        <input type="number" name="OS" required><br><br>
 
         Maths:
         <input type="number" name="maths" required><br><br>
 
-        Science:
-        <input type="number" name="science" required><br><br>
+        OOPS:
+        <input type="number" name="OOPS" required><br><br>
 
-        Computer:
-        <input type="number" name="computer" required><br><br>
+        DELD:
+        <input type="number" name="DELD" required><br><br>
 
-        Hindi:
-        <input type="number" name="hindi" required><br><br>
+        WT:
+        <input type="number" name="WT" required><br><br>
 
         <input type="submit" value="Generate Marksheet">
 
